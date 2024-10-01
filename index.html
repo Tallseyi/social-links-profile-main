@@ -23,14 +23,35 @@
     }
 
     .card-img-top {
-      width: 100px;
-      height: 100px;
+      width: 80px;
+      height: 80px;
       align-self: center;
     }
 
     .btn {
       margin-bottom: 10px;
       width: 280px;
+      background-color: hsl(0, 0%, 20%);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .btn:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+    }
+
+    h5 {
+      font-weight: 600;
+    }
+
+    .location {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .about {
+      font-size: 14px;
     }
   </style>
 </head>
@@ -40,8 +61,8 @@
       <img src="assets/images/avatar-jessica.jpeg" class="card-img-top rounded-circle justify-content-center my-3" alt="">
       <div class="">
         <h5>Jessica Randall</h5>
-        <p style="color: hsl(75, 94%, 57%);">London, United Kingdom</p>
-        <p class="text-muted">"Front-end developer and avid reader."</p>
+        <p class="location" style="color: hsl(75, 94%, 57%);">London, United Kingdom</p>
+        <p class="about">"Front-end developer and avid reader."</p>
       </div>
       <div class="button">
         <a href="#" class="btn btn-dark">GitHub</a><br>
